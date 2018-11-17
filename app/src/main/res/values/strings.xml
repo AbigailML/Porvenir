@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Porvenir</string>
+    <string name="title_activity_ubicacion">Map</string>
+    <string name="title_activity_porvenir_ubicacion">Map</string>
+</resources>

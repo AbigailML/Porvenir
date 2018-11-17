@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F574D2DF"
+    tools:context="app.example.ruben.porvenir.Valores">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="20dp"
+        android:text="•	Compromiso                •	Integridad                     •	Prudencia                     •	Orientación al cliente   •	Calidad de trabajo"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_logo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/lo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/iv_logo"
+        android:layout_margin="30dp"
+        android:text="Valores"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:fontFamily="cursive"
+        />
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv_valores"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/valores"/>
+
+</RelativeLayout>

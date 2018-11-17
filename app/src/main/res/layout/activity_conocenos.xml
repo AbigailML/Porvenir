@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rosa"
+    tools:context="app.example.ruben.porvenir.Conocenos">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Misión"
+        android:id="@+id/btn_Mision"
+        android:layout_marginBottom="56dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/btn_Vision"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:text="Visión"
+        android:background="@android:color/transparent" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valores"
+        android:id="@+id/btn_Valores"
+        android:layout_marginLeft="280dp"
+        android:background="@android:color/transparent"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/iv_histo"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cupcakes1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/iv_logo_histo"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/logo_historia"
+        android:layout_marginTop="405dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_calle"
+        android:text="Calle Hidalgo 25-A, Col. Centro"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/NEGRO"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_edo"
+        android:text="Huauchinango, Conócenos!"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/NEGRO"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_tel"
+        android:text="tel.77 67621016"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="@color/NEGRO"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        />
+
+</RelativeLayout>

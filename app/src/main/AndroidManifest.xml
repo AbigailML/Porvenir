@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ruben.porvenir">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="app.example.ruben.porvenir.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC10zIT2h7bHlARo03sTKsnZJkT3lVDUS0" />
+
+        <activity android:name="app.example.ruben.porvenir.Menu" />
+        <activity android:name="app.example.ruben.porvenir.Conocenos" />
+        <activity android:name="app.example.ruben.porvenir.Productos" />
+        <activity android:name="app.example.ruben.porvenir.Comentarios" />
+        <activity android:name="app.example.ruben.porvenir.Mision" />
+        <activity android:name="app.example.ruben.porvenir.Vision" />
+        <activity android:name="app.example.ruben.porvenir.Valores" />
+        <activity android:name="app.example.ruben.porvenir.Cupcake" />
+        <activity android:name="app.example.ruben.porvenir.Gelatina" />
+        <activity android:name="app.example.ruben.porvenir.Pastel" />
+        <activity android:name="app.example.ruben.porvenir.Mousse" />
+        <activity android:name="app.example.ruben.porvenir.Compra" />
+        <activity
+            android:name="app.example.ruben.porvenir.Ubicacion"
+            android:label="@string/title_activity_ubicacion" />
+        <activity android:name="app.example.ruben.porvenir.Busqueda" />
+        <activity android:name="app.example.ruben.porvenir.CupcakeChocolate" />
+        <activity android:name="app.example.ruben.porvenir.CupcakeVainilla" />
+        <activity android:name="app.example.ruben.porvenir.CupcakeFrutas" />
+        <activity android:name="app.example.ruben.porvenir.GelatinaDurazno" />
+        <activity android:name="app.example.ruben.porvenir.GelatinaFrutas" />
+        <activity android:name="app.example.ruben.porvenir.GelatinaVainilla" />
+        <activity android:name="app.example.ruben.porvenir.MounsChoco" />
+        <activity android:name="app.example.ruben.porvenir.MounsMango" />
+        <activity android:name="app.example.ruben.porvenir.MounsZarzamora" />
+        <activity android:name="app.example.ruben.porvenir.PastelKiwi" />
+        <activity android:name="app.example.ruben.porvenir.PastelOlaf" />
+        <activity android:name="app.example.ruben.porvenir.PastelGraduacion" />
+        <activity android:name="app.example.ruben.porvenir.PastelMinions" />
+        <activity android:name="app.example.ruben.porvenir.PastelFrozen" />
+        <activity android:name="app.example.ruben.porvenir.PastelSpaider"></activity>
+    </application>
+
+</manifest>

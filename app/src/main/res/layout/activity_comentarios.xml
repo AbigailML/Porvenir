@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bienvenido"
+    tools:context="app.example.ruben.porvenir.Comentarios">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       Indica tu comentario sobre la"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App que estas utilizando"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:id="@+id/txt2" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/comen"
+        android:hint="Inserte su comentario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:inputType="text"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/iv_logo_histo"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/logo_historia"
+        android:layout_marginTop="430dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/iv_enviar"
+        android:layout_below="@+id/comen"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="65dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mensaje" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/iv_cancelar"
+        android:layout_below="@+id/comen"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="235dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cancelar" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/iv_enviar"
+        android:layout_centerHorizontal="true"
+        android:text="Facebook"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnFace"
+        app:srcCompat="@drawable/face"/>
+
+</RelativeLayout>
